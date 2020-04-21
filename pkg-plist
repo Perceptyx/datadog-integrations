@@ -1,9 +1,6 @@
 @owner dd-agent
 @group dd-agent
-/opt/datadog-agent/AGENT_CHANGELOG.md
-/opt/datadog-agent/AGENT_INTEGRATIONS.md
 bin/datadog-checks-downloader
-@dir %%ETCDIR%%
 %%ETCDIR%%/conf.d/active_directory.d/conf.yaml.example
 %%ETCDIR%%/conf.d/activemq.d/conf.yaml.example
 %%ETCDIR%%/conf.d/activemq.d/metrics.yaml
@@ -2128,5 +2125,3 @@ bin/datadog-checks-downloader
 %%PYTHON_SITELIBDIR%%/datadog_zk-2.3.0-py%%PYTHON_VER%%.egg-info/dependency_links.txt
 %%PYTHON_SITELIBDIR%%/datadog_zk-2.3.0-py%%PYTHON_VER%%.egg-info/requires.txt
 %%PYTHON_SITELIBDIR%%/datadog_zk-2.3.0-py%%PYTHON_VER%%.egg-info/top_level.txt
-@dir /opt/datadog-agent
-@dir /opt
