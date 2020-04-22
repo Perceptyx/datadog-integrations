@@ -8,8 +8,8 @@
 -        version = raw_version.split('/')[1]
 +        if len(value.split(' ')) == 1:
 +            # ServerTokens are off
-+            version = "servertokens-off"
-+	else:
++            version = "0.0.0"
++        else:
 +            raw_version = value.split(' ')[0]
 +            version = raw_version.split('/')[1]
          self.set_metadata('version', version)
