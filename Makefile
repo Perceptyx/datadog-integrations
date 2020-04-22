@@ -2,7 +2,7 @@
 
 PORTNAME=	datadog-integrations
 DISTVERSION=	7.16.0
-PORTREVISION=	6
+PORTREVISION=	7
 CATEGORIES=	sysutils
 
 MAINTAINER=	admins@perceptyx.com
@@ -25,7 +25,8 @@ BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools>0:devel/py-setuptools@${PY_FLAV
 
 RUN_DEPENDS=	datadog-agent>=7.16.0_6:sysutils/datadog-agent.git \
 		${PYTHON_PKGNAMEPREFIX}pymysql>0:databases/py-pymysql@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}redis>0:databases/py-redis@${PY_FLAVOR}
+		${PYTHON_PKGNAMEPREFIX}redis>0:databases/py-redis@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}simplejson>0:devel/py-simplejson@${PY_FLAVOR}
 
 NO_BUILD=	yes
 NO_ARCH=	yes
