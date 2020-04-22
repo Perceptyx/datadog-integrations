@@ -23,7 +23,7 @@ GH_TAGNAME=	${DISTVERSION}
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}setuptools>0:devel/py-setuptools@${PY_FLAVOR}
 
-RUN_DEPENDS=	datadog-agent>=7.16.0_6:sysutils/datadog-agent.git \
+RUN_DEPENDS=	datadog-agent>=7.16.0_6:sysutils/datadog-agent \
 		${PYTHON_PKGNAMEPREFIX}pymysql>0:databases/py-pymysql@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}redis>0:databases/py-redis@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}simplejson>0:devel/py-simplejson@${PY_FLAVOR}
